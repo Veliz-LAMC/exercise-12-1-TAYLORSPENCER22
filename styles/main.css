@@ -139,10 +139,53 @@ article img {
 	border: 1px solid black;
 }
 
+/* the styles for the table */
+figure {
+	position: relative;
+	float: right;
+	align-self: left;
+	width: 525px;
+	margin:0;
+	padding:0; 
+	}
+figcaption {
+	display: block;
+	font-weight: bold;
+	text-align: left;
+	font-size: 120%;
+	padding-bottom: .25em;
+	color: #800000;
+}
+table {
+	border: 2px solid #800000;
+	border-collapse: collapse;
+	border-left: none; 
+	border-right: none;
+}
+tr.bottom {
+	border-bottom: 2px solid #800000;
+}
+th, td, tfoot {
+	padding: .2em .7em;
+}
+
+tr.one {
+	border-bottom: 2px solid #800000;
+}
+tr.last {
+	border-bottom: 2px solid #800000;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+
 /* the styles for the aside */
 aside {
 	width: 215px;
-	float: right;
+	float: left;
 	padding: 0 0 20px 20px;
 }
 aside h2 {
